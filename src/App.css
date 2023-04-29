@@ -10,7 +10,7 @@
   
   display: flex;
   justify-content: center;
-  background-color: red;
+  background-color: yellow;
 
   
 }
@@ -29,7 +29,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   width: 400px;
-  height: 350px;
+  height: 400px;
   position: absolute;
   left: 200px;
   top:30px;
@@ -47,9 +47,10 @@ margin-top: 0px;
 h1{
   position: absolute;
 
-  top: 300px;
+  top: 350px;
   left: 480px;
   color: white;
+  font-style: oblique;
 
 }
 .design{
@@ -57,21 +58,44 @@ h1{
   color: white;
   display: flex;
  justify-content: center;
- height: auto;
+ height: 1415px;
+ margin: 0%;
 
 }
 .Techstack{
-  width: 40%;
-  height: 30%;
+  width: 50%;
+  height: 100%;
   margin: 120px;
   
 }
 .margin{
- margin: 20px;
+ margin-top: 20px;
   column-gap: 10px;
 }
 .gridcell{
-  margin: 200px;
+  margin-top: 580px;
+  
+  
   background-color: rgb(39, 39, 56);
+  
 
+}
+.gridfooter{
+ 
+  margin: 1rem auto ;
+  width: 200px;
+  height: 200px;
+  color: white;
+  
+}
+.formcontact{
+  width: 50%;
+  
+}
+.footerElement{
+  display:flex;
+  justify-content: space-around;
+  background-color: yellow;
+  margin: 0px;
+  height: 350px;
 }
